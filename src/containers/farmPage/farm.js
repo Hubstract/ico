@@ -258,10 +258,9 @@ class Farm extends React.PureComponent {
     // this.APR(0.4, 100, "LP");
     // this.APR(0.4, 100, "ALIA");
 
-    if (this.props.contract) {
+    
       this.getStats();
-    }
-
+    
     this.intervalId = setInterval(this.timer.bind(this), 6000);
   }
 

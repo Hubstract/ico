@@ -504,40 +504,6 @@ class Header extends React.Component {
       }, 600);
     }
 
-    // if (typeof window.ethereum !== undefined) {
-    //   window.ethereum.on("accountsChanged", (accounts) => {
-    //     // console.log(accounts);
-
-    //     // if(accounts.length===0)
-    //     // {
-    //     // this.props.setMetaMask("");
-    //     // localStorage.removeItem("userConnected");
-    //     // this.props.setApprovalForAlia(false);
-    //     // this.props.setApprovalForLp(false);
-    //     // this.props.setDecimalsForAlia("");
-    //     // this.props.setDecimalsForLp("");
-    //     // }
-    //     // if (this.props.metaMaskAddress !== "") {
-    //     //   showNotification(
-    //     //     "Account changed",
-    //     //     "You have changed your account so, you need to connect again",
-    //     //     "warning",
-    //     //     4000
-    //     //   );
-    //     //   this.addContract();
-    //     // }
-    //     // this.props.setMetaMask("");
-    //     // localStorage.removeItem("accounts");
-    //     // this.props.setApprovalForAlia(false);
-    //     // this.props.setApprovalForLp(false);
-    //     // this.props.setDecimalsForAlia("");
-    //     // this.props.setDecimalsForLp("");
-    //     if (this.props.metaMaskAddress !== "") {
-    //       this.connectWithWallet("accountChanged");
-    //     }
-    //   });
-    // }
-
     const shouldShow = window?.location?.pathname
     document.getElementById("mySidenav").classList.add("showClass");
     shouldShow !== "/admin" && document.getElementById("hamburger").classList.add("blue");
@@ -650,15 +616,6 @@ class Header extends React.Component {
       localStorage.setItem("lang", "zh-hans");
     }
   }
-
-  // onClickFlag = ()=>{
-  //   console.log('===22')
-  //   this.setState({
-
-  //     showFlag: false
-  //   });
-
-  // }
 
   handleConnectedButton() {
     this.setState({ showConnectedModal: true });

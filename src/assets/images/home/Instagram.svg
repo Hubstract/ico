@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff006e"/>
+      <stop offset="1" stop-color="#a200ff"/>
+    </linearGradient>
+    <clipPath id="clip-Instagram">
+      <rect width="70" height="70"/>
+    </clipPath>
+  </defs>
+  <g id="Instagram" clip-path="url(#clip-Instagram)">
+    <g id="instagram-2" data-name="instagram" transform="translate(0.001)">
+      <path id="Path_184" data-name="Path 184" d="M51.051,0h-32.1A18.97,18.97,0,0,0,0,18.948v32.1A18.97,18.97,0,0,0,18.947,70h32.1A18.969,18.969,0,0,0,70,51.052v-32.1A18.97,18.97,0,0,0,51.051,0ZM35,54.14A19.14,19.14,0,1,1,54.139,35,19.162,19.162,0,0,1,35,54.14ZM54.6,20.374a5.656,5.656,0,1,1,5.656-5.656A5.662,5.662,0,0,1,54.6,20.374Zm0,0" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <path id="Path_185" data-name="Path 185" d="M160.654,146.02a14.634,14.634,0,1,0,14.634,14.634A14.651,14.651,0,0,0,160.654,146.02Zm0,0" transform="translate(-125.655 -125.654)" fill="url(#linear-gradient)"/>
+      <path id="Path_186" data-name="Path 186" d="M390.383,96.3a2.391,2.391,0,1,0,2.391,2.391A2.394,2.394,0,0,0,390.383,96.3Zm0,0" transform="translate(-335.762 -83.998)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

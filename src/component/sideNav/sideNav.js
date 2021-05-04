@@ -43,10 +43,8 @@ import AliaTokenAdd from "../../config/contractAddress/AliaTokenAdd";
 import StakingContractAddTestNet from "../../config/contractAddress/StakingContractAddTestNet";
 import pancakeSwapAdd from "../../config/contractAddress/pancakeSwapAdd";
 import aliaBNBReserveAdd from "../../config/contractAddress/aliaBNBReserveAdd";
-import ValueLoader from "../../component/ValueLoader/valueLoader";
 
 import { connect } from "react-redux";
-import AddCollectionModal from "../../containers/Market/addCollection/addCollectionModal";
 import IcoAbi from "config/abi/Ico";
 import icoAdd from "config/contractAddress/ico"
 import { divideNo } from "utils/divideByEighteen";
@@ -360,7 +358,6 @@ const Side = (props) => {
           </div>
         </div>
       </div>
-      <AddCollectionModal hideShow={()=>setopenCollectionModal(false)} show={openCollectionModal}/>
     </>
   );
 };

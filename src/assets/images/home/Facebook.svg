@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff006e"/>
+      <stop offset="1" stop-color="#a200ff"/>
+    </linearGradient>
+    <clipPath id="clip-Facebook">
+      <rect width="70" height="70"/>
+    </clipPath>
+  </defs>
+  <g id="Facebook" clip-path="url(#clip-Facebook)">
+    <g id="facebook-app-symbol" transform="translate(-23.811 0)">
+      <path id="f_1_" d="M60.4,70V38.072H70.892l1.574-12.447H60.4V17.68c0-3.6.976-6.057,6.041-6.057l6.45,0V.487A85.674,85.674,0,0,0,63.49,0C54.185,0,47.814,5.8,47.814,16.447v9.178H37.29V38.072H47.814V70Z" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

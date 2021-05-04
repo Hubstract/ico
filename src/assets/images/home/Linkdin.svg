@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff006e"/>
+      <stop offset="1" stop-color="#a200ff"/>
+    </linearGradient>
+    <clipPath id="clip-Linkdin">
+      <rect width="70" height="70"/>
+    </clipPath>
+  </defs>
+  <g id="Linkdin" clip-path="url(#clip-Linkdin)">
+    <g id="linkedin_1_" data-name="linkedin (1)" transform="translate(3 3.668)">
+      <path id="Path_181" data-name="Path 181" d="M7.689-.668C3.04-.668,0,2.385,0,6.4c0,3.924,2.949,7.064,7.511,7.064H7.6c4.74,0,7.69-3.14,7.69-7.064-.089-4.013-2.95-7.066-7.6-7.066Zm0,0" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <path id="Path_182" data-name="Path 182" d="M8.109,198.313H21.7v40.893H8.109Zm0,0" transform="translate(-7.306 -175.616)" fill="url(#linear-gradient)"/>
+      <path id="Path_183" data-name="Path 183" d="M247.057,188.625c-7.332,0-12.249,6.89-12.249,6.89v-5.93H221.215v40.893h13.592V207.641a9.315,9.315,0,0,1,.448-3.317,7.44,7.44,0,0,1,6.974-4.97c4.918,0,6.885,3.75,6.885,9.247v21.876H262.7V207.03c0-12.56-6.706-18.405-15.648-18.405Zm0,0" transform="translate(-199.299 -166.888)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

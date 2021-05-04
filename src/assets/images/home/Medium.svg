@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff006e"/>
+      <stop offset="1" stop-color="#a200ff"/>
+    </linearGradient>
+    <clipPath id="clip-Medium">
+      <rect width="70" height="70"/>
+    </clipPath>
+  </defs>
+  <g id="Medium" clip-path="url(#clip-Medium)">
+    <path id="medium_1_" data-name="medium (1)" d="M64.415,9.013,70,3.67V2.5H50.651L36.861,36.823,21.172,2.5H.884V3.67l6.525,7.855a2.738,2.738,0,0,1,.884,2.284V44.675a3.52,3.52,0,0,1-.942,3.063L0,56.645V57.8H20.84V56.63l-7.35-8.893a3.629,3.629,0,0,1-1.012-3.063v-26.7L30.771,57.815H32.9l15.73-39.839V49.712c0,.837,0,1.009-.548,1.558L42.42,56.744v1.173H69.872v-1.17l-5.454-5.34a1.622,1.622,0,0,1-.624-1.558V10.57a1.616,1.616,0,0,1,.621-1.557Z" transform="translate(0 4.5)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
