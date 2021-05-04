@@ -1,0 +1,342 @@
+.farm-cta{
+  padding: 24px 0px;
+  // margin-bottom: 40px;
+  .chip-card-list{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0 16px;
+    flex-direction: column;
+    @media only screen and (min-width: 1024px) {
+      flex-direction: row;  
+      margin: 0 18px;              
+    }
+    .chip-card-item{
+      padding: 10px 5px; 
+      border: 1px solid #008FFF;
+      border-radius: 7px;     
+      text-align: center;
+      margin-bottom: 8px;
+      @media only screen and (min-width: 1024px) {
+        width: calc(33.3% - 5px);
+        margin-bottom: 0;      
+      }
+      h2{
+        margin: 0;
+        color: #000000;
+        font-weight: 600;
+        font-size: 22px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
+        // @media(min-width:321px) and (max-width:1024px){
+        //   max-width: 100%;
+        // }
+      }
+      h6{
+        margin: 0;
+        color: #008FFF;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        @media only screen and (min-width: 1024px) { 
+          font-size: 14px;
+          font-weight: 500;
+          margin-bottom: 7px; 
+        }
+      }
+    }
+  }
+  .summery-card{
+    padding: 8px;
+    margin: 14px 16px;
+    border: 1px solid #008FFF;
+    border-radius: 7px; 
+    @media only screen and (min-width: 1024px) { 
+      padding: 21px 16px;
+      margin: 22px 18px;
+    }
+    li{
+        display: flex;    
+        margin: 4px 0;
+        // flex-direction: column;
+        &:last-child .border{
+          // display: none;
+        }
+        @media only screen and (min-width: 1024px) { 
+          flex-direction: row;
+          align-items: center;
+          margin: 8px 0;
+          &:last-child .border{
+            display: block;
+          }
+        }
+        .card-d1{
+            color: #202A43;
+            font-size: 14px;
+            font-weight: 600;
+            @media only screen and (max-width: 440px) { 
+              font-size: 13px;
+            }
+            @media only screen and (max-width: 320px) { 
+              font-size: 11px;
+            }
+        }
+        .card-d2{
+            color: #202A43;
+            font-size: 17px;
+            font-weight: 700;
+            @media only screen and (min-width: 1024px) { 
+              font-size: 14px;
+              font-weight: 700;
+            }
+            @media only screen and (max-width: 440px) { 
+              font-size: 13px;
+              font-weight: 700;
+            }
+            @media only screen and (max-width: 320px) { 
+              font-size: 11px;
+            }
+            &.link_{
+              color: #008FFF;
+              cursor: pointer;
+            }
+        }
+        .card-size {
+          // width: 100px;
+          // overflow: hidden;
+          // text-overflow: ellipsis;
+          // white-space: nowrap;
+        }
+        .arrow {
+          background: #008FFF;
+          height: 13px;
+          width: 13px;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          margin-left: 3px;
+          cursor: pointer;
+          margin-top: 6px;
+      }
+        .border{
+            flex: 1;          
+            margin: 11px 0;
+            margin-left: 3px;
+            margin-right: 5px;
+            border: 0 !important;
+            border-top: 1px dashed #008FFF !important;
+            order: 0;
+            @media only screen and (min-width: 1024px) { 
+              order: 0;
+              margin-bottom:0;
+              margin-left: 15px;
+              margin-right: 5px;
+              margin-top: 0;
+            }
+            @media only screen and (max-width: 320px) { 
+              margin: 7px 0;
+              margin-left: 3px;
+              margin-right: 5px;
+            }
+        }
+    }
+}
+.form-input-group{
+  display: flex;
+  margin: 0 16px 8px;
+  flex-direction: column;
+  @media only screen and (min-width: 1024px) {
+    margin: 0 18px 22px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+ 
+  .form-item{ 
+    width: 100%; 
+    position: relative;
+    @media only screen and (min-width: 1024px) {
+      width: 49%; 
+    }
+    &.input-select{
+     span {
+        position: absolute;
+        background: #008FFF;
+        border-radius: 4px;
+        width: 45px;
+        height: 27px;
+        font-size: 12px;
+        color: #FFFFFF;
+        right: 11px;
+        top: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        
+     }
+    }
+    .form-control{
+      height: 42px;
+      border: 1px solid #008FFF;
+      box-shadow: none;
+      font-weight: 500;
+      padding-right: 63px;
+      &:focus{
+        border: 1px solid #008FFF;
+      }
+    }
+    .btn{
+      height: 42px;
+      font-weight: 600;
+      font-size: 16px;
+      margin: 8px 0; 
+      @media only screen and (min-width: 1024px) {
+        margin: 0;
+        height: 42px;
+        font-size: 16px;
+      }
+      @media only screen and (max-width: 320px) {
+        font-size: 14px;
+        height: 39px;
+      }
+      
+    }
+  }
+}
+.title-card-ui{
+  text-align: center;
+  color: #008FFF;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0px 16px 15px;
+  @media only screen and (min-width: 1024px) {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 16px 20px;
+  }
+  
+}
+.title-card-ui-reward{
+  background: linear-gradient(0deg, #00C7FF, #00C7FF);
+  color: #FFFFFF;
+  font-size: 17px; 
+  padding: 5px 16px;
+  font-weight: 500;
+  @media only screen and (min-width: 1024px) {
+    font-size: 18px; 
+    padding: 6px 18px;
+    font-weight: 600;
+  }
+  @media only screen and (max-width: 320px) {
+    font-size: 15px; 
+  }
+}
+.ala-to-harvest{
+  display: flex;
+
+  border: 1px solid #008FFF;
+  margin: 14px 16px 0;
+  border-radius: 7px;
+  height: auto;
+  align-items: center;
+  // flex-direction: column;
+  @media only screen and (min-width: 1024px) {
+    margin: 18px 18px 0;
+    border-radius: 7px;
+    height: 45px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+    div{
+      // width: 100%; 
+      padding:4px 8px;
+      font-size: 14px;
+      @media only screen and (min-width: 1024px) {
+        // width: 33%;
+        padding: 0 23px;
+        // font-size: 12px;
+      }
+      @media only screen and (max-width: 320px) {
+        font-size: 12px;
+      }
+      &.tile1{
+        color: #5D5D5D;
+        white-space: nowrap;
+        font-size: 14px; 
+        letter-spacing: -0.2px;
+        @media only screen and (min-width: 1024px) {
+          font-size: 14px; 
+        }
+        @media only screen and (max-width: 320px) {
+          font-size: 12px;
+        }
+      }
+      &.tile2{
+        color: #000000;
+        font-weight: 600; 
+        text-align: right;
+        flex: 1;
+        @media only screen and (min-width: 1024px) {
+         
+        }
+      }
+      &.tile3{
+        color: #000000;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        @media only screen and (min-width: 1024px) { 
+          justify-content: flex-end; 
+        }
+        span{
+          display: block;
+          width:32px;
+            height:31px;
+          border-radius: 50%;
+          margin-left:14px;
+          @media only screen and (max-width: 320px) {   
+            height: 28px;
+          } 
+          img{
+            width:32px;
+            height:31px;
+            @media only screen and (max-width: 320px) {         
+              width: 26px;
+              height: 25px;
+            }
+          }
+
+        }
+      }
+      
+    }
+}
+.footer-btn-ui{
+  margin: 0 16px;
+  @media only screen and (min-width: 1024px) { 
+    margin: 0 18px;
+  }
+  .btn{
+
+    height: 42px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 8px 0;  
+    margin-bottom: 3px;
+    margin-top: 10px;
+    @media only screen and (min-width: 1024px) {         
+      height: 42px; 
+      font-size: 16px;
+      margin-top: 18px;
+    }
+    @media only screen and (max-width: 320px) {         
+      font-size: 14px;
+      height: 39px;
+    }
+
+  }
+}
+}
