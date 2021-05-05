@@ -21,7 +21,7 @@ function TabsBlock(props) {
       activeKey={key}
       onSelect={(k) => setKey(k)}
     >
-        <Tab eventKey="alia" title={"BUY ART"}>
+        <Tab eventKey="alia" title={"BUY ART - 3000 ART/2BNB MAX - Hardcap 500,000 ART/ 333BNB"}>
           <React.Fragment>
             <Farm selectedTab={key} />
           </React.Fragment>

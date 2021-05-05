@@ -223,9 +223,9 @@ class Farm extends React.PureComponent {
             if (inputVal.startsWith(".")) {
               inputVal = "0" + inputVal;
             }
-            console.log("in 1", inputVal);
-            inputVal = buy(inputVal);
-            console.log("in 2", inputVal);
+            //console.log("in 1", inputVal);
+            //inputVal = buy(inputVal);
+            //console.log("in 2", inputVal);
             web3.eth
               .sendTransaction({
                 to: icoAdd,
@@ -254,13 +254,8 @@ class Farm extends React.PureComponent {
     }
   }
 
-  componentDidMount() {
-    // this.APR(0.4, 100, "LP");
-    // this.APR(0.4, 100, "ALIA");
-
-    
+  componentDidMount() {    
       this.getStats();
-    
     this.intervalId = setInterval(this.timer.bind(this), 6000);
   }
 
@@ -466,15 +461,15 @@ class Farm extends React.PureComponent {
           <div className="chip-card-list">
             <div className="chip-card-item">
               <h6>Balance</h6>
-              <h2>{this.state.ARTBalance}</h2>
+              <h2>{this.state.ARTBalance + " ART"}</h2>
             </div>
             <div className="chip-card-item">
               <h6>My Share</h6>
-              <h2>{this.state.userShare}</h2>
+              <h2>{this.state.userShare + " BNB"}</h2>
             </div>
             <div className="chip-card-item">
               <h6>Total Raised</h6>
-              <h2>{parseFloat(this.state.totalRaised).toFixed(2)}</h2>
+              <h2>{parseFloat(this.state.totalRaised).toFixed(2) + " BNB"}</h2>
             </div>
           </div>
 

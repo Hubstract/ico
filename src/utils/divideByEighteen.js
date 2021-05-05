@@ -14,7 +14,7 @@ export const remaining = (res) => {
     res = "0";
   }
   let bigNo = new Big(res);
-  let max = new Big(3000000000000000000000)
+  let max = new Big(2000000000000000000)
   let bigNo1 = new Big(Math.pow(10, 18));
 
   let number = max.minus(bigNo).div(bigNo1).toFixed(18);
