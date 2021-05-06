@@ -39,6 +39,7 @@ import { divideNo, remaining, buy } from "../../utils/divideByEighteen";
 import artAbi from "config/abi/artAbi";
 import artAdd from "config/contractAddress/artAdd";
 import { providerUrl } from "config/chainIds";
+import Countdown from "react-countdown";
 
 const Web3 = require("web3");
 
@@ -254,8 +255,8 @@ class Farm extends React.PureComponent {
     }
   }
 
-  componentDidMount() {    
-      this.getStats();
+  componentDidMount() {
+    this.getStats();
     this.intervalId = setInterval(this.timer.bind(this), 6000);
   }
 
@@ -452,6 +453,17 @@ class Farm extends React.PureComponent {
           {" "}
           <FormattedMessage id="transactiobInProcess" />
         </p>
+
+        <center>
+          <h2>
+            {" "}
+            Starting in{" "}
+            <Countdown date={1620345600000}>
+              {/* <span>You are good to go!</span> */}
+            </Countdown>
+          </h2>
+        </center>
+
         <ProgressBar
           now={(parseFloat(this.state.totalRaised) / 333) * 100}
           label={`${(parseFloat(this.state.totalRaised) / 333) * 100}%`}

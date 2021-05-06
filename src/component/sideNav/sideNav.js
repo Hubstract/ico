@@ -411,7 +411,7 @@ function CommunityLinks() {
             }}
             className="nav-icon"
             target="_blank"
-            href="#"
+            href="https://twitter.com/hubstractArt"
           >
             <span>
               <svg
@@ -450,7 +450,7 @@ function CommunityLinks() {
             }}
             className="nav-icon"
             target="_blank"
-            href="#"
+            href="https://t.me/hubstract"
           >
             <span>
               <svg
@@ -481,7 +481,7 @@ function MarketLinks(props) {
           }}
           className="nav-icon"
           target="_blank"
-          href="#"
+          href="https://twitter.com/hubstractArt"
         >
           <span>
             <svg
@@ -520,7 +520,7 @@ function MarketLinks(props) {
           }}
           className="nav-icon"
           target="_blank"
-          href="#"
+          href="https://t.me/hubstract"
         >
           <span>
             <svg
